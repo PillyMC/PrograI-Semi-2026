@@ -86,6 +86,7 @@
             this.Controls.Add(this.btnProcesar);
             this.Name = "Form1";
             this.Text = "Conversor de Longitud";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
