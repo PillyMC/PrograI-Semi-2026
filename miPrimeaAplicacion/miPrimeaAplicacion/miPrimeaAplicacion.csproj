@@ -70,10 +70,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPRINCIPAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPRINCIPAL.Designer.cs">
+      <DependentUpon>frmPRINCIPAL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPRINCIPAL.resx">
+      <DependentUpon>frmPRINCIPAL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +115,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>db_academica.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\PERIODOS.png" />
+    <None Include="Resources\NOTAS.png" />
+    <None Include="Resources\LIBRO.png" />
+    <None Include="Resources\ALUMNO.png" />
+    <None Include="Resources\salir.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
