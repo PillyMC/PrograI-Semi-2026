@@ -75,7 +75,6 @@
             this.grbDatos.Controls.Add(this.lblNombreAlumno);
             this.grbDatos.Controls.Add(this.txtUsuario);
             this.grbDatos.Controls.Add(this.lblCodigoAlumno);
-            this.grbDatos.Enabled = false;
             this.grbDatos.Location = new System.Drawing.Point(30, 21);
             this.grbDatos.Name = "grbDatos";
             this.grbDatos.Size = new System.Drawing.Size(451, 290);
